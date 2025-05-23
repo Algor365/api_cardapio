@@ -15,6 +15,11 @@ def formatar_resposta(lista, titulo):
         resposta += f"{nome}: {preco}\n"
     return resposta
 
+@app.route('/')
+def esfihas():
+    db=carregar_db()
+    return jsonify(db)
+
 @app.route('/esfihas/salgada')
 def esfihas_salgadas():
     db = carregar_db()
