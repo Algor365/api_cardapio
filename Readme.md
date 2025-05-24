@@ -41,7 +41,7 @@ Todos os endpoints aceitam busca por nome com o parâmetro `?nome=`.
 
 ### Exemplo:
 ```
-https://api-cardapio-f44e.onrender.com/bebidas?nome=coca_cola_lata
+https://api-cardapio-f44e.onrender.com/bebidas?nome=coca-cola lata
 ```
 
 > Observação: Use **underscore (`_`)** no lugar de espaços.
